@@ -1,0 +1,76 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    letter-spacing: 2px;
+    background-color: #013741;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4em;
+}
+
+.comming-soon-sec {
+    min-height: 100vh;
+}
+
+.comming-soon-sec {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.comming-soon {
+    text-align: center;
+}
+
+.comming-soon-logo {
+    width: 250px;
+    max-width: 80%;
+    margin-bottom: 30px;
+}
+
+.comming-soon-headline {
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width: 980px) {
+    .comming-soon-logo {
+        max-width: 50%;
+    }
+    
+    .comming-soon-headline {
+        font-size: 40px;
+    }
+
+    .comming-soon p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .comming-soon-logo {
+        max-width: 50%;
+    }
+    
+    .comming-soon-headline {
+        font-size: 30px;
+    }
+
+    .comming-soon p {
+        font-size: 14px;
+    }
+}
